@@ -133,6 +133,55 @@
    ;; column-marker-mode
    `(column-marker-1 ((t (:background ,brown-4))))
 
+   ;; rainbow-delimiters
+   `(rainbow-delimiters-depth-1-face ((t (:foreground ,purple-2))))
+   `(rainbow-delimiters-depth-2-face ((t (:foreground ,yellow-2))))
+   `(rainbow-delimiters-depth-3-face ((t (:foreground ,blue-2))))
+   `(rainbow-delimiters-depth-4-face ((t (:foreground ,red-3))))
+   `(rainbow-delimiters-depth-5-face ((t (:foreground ,green-2))))
+   `(rainbow-delimiters-depth-6-face ((t (:foreground ,purple-3))))
+   `(rainbow-delimiters-depth-7-face ((t (:foreground ,yellow-3))))
+   `(rainbow-delimiters-depth-8-face ((t (:foreground ,blue-3))))
+   `(rainbow-delimiters-depth-9-face ((t (:foreground ,red-4))))
+   `(rainbow-delimiters-depth-10-face ((t (:foreground ,orange-1))))
+   `(rainbow-delimiters-depth-11-face ((t (:foreground ,blue-4))))
+   `(rainbow-delimiters-depth-12-face ((t (:foreground ,red-5))))
+
+   ;; org-mode
+   `(org-document-title ((t (:foreground ,blue-4 :background ,brown-1 :weight bold :height 1.5))))
+   `(org-document-info ((t (:foreground ,blue-4 :background ,brown-1 :weight bold))))
+   `(org-document-info-keyword ((t (:foreground ,gray-1 :background ,brown-1))))
+   `(org-agenda-date-today
+     ((t (:foreground ,orange-2 :slant italic :weight bold))) t)
+   `(org-agenda-structure
+     ((t (:inherit font-lock-comment-face))))
+   `(org-archived ((t (:slant italic))))
+   `(org-checkbox ((t (:background ,gray-1 :foreground ,brown-1
+                                   :box (:line-width 1 :style released-button)))))
+   `(org-date ((t (:foreground ,blue-4 :underline t))))
+   `(org-done ((t (:bold t :weight bold :foreground ,green-2
+                              :box (:line-width 1 :style none)))))
+   `(org-todo ((t (:bold t :foreground ,red-3 :weight bold
+                              :box (:line-width 1 :style none)))))
+   `(org-level-1 ((t (:foreground ,blue-4 :height 1.3 :weight bold))))
+   `(org-level-2 ((t (:foreground ,yellow-2 :height 1.2 :weight bold))))
+   `(org-level-3 ((t (:foreground ,purple-2 :height 1.1 :weight bold))))
+   `(org-level-4 ((t (:foreground ,red-7))))
+   `(org-level-5 ((t (:foreground ,purple-1))))
+   `(org-level-6 ((t (:foreground ,yellow-1))))
+   `(org-level-7 ((t (:foreground ,red-5))))
+   `(org-level-8 ((t (:foreground ,blue-2))))
+   `(org-link ((t (:foreground ,blue-2 :underline t))))
+   `(org-tag ((t (:bold t :weight bold))))
+   `(org-column ((t (:background ,yellow-3 :foreground ,brown-1))))
+   `(org-column-title ((t (:background ,yellow-3 :underline t :weight bold))))
+   `(org-block ((t (:foreground ,brown-2 :background ,brown-6))))
+   `(org-block-begin-line 
+     ((t (:foreground ,blue-3 :underline t :background ,brown-4))))
+   `(org-block-background ((t (:background ,brown-6))))
+   `(org-block-end-line 
+     ((t (:foreground ,blue-3 :underline t :background ,brown-4))))
+
    ;; Misc.
    `(gnus-group-news-1 ((t (:foreground ,yellow-1 :weight bold))))
    `(gnus-group-news-1-empty ((t (:foreground ,yellow-1))))
