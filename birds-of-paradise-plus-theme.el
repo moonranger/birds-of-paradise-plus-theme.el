@@ -81,8 +81,15 @@
    ;; UI related
    `(link ((t (:foreground ,yellow-1))))
    `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
-   `(mode-line ((t (:background ,brown-2 :foreground ,white-1))))
-   `(mode-line-inactive ((t (:background ,gray-1 :foreground ,white-1))))
+   
+   `(mode-line ((t (:background ,blue-5 :foreground ,white-1 :box nil))))
+   `(powerline-active1 ((t (:background ,blue-4 :foreground ,white-3 :box nil))))
+   `(powerline-active2 ((t (:background ,gray-1 :foreground ,white-2 :box nil))))
+   
+   `(mode-line-inactive ((t (:background ,brown-4 :foreground ,brown-5 :box nil))))
+   `(powerline-inactive1 ((t (:background ,brown-6 :foreground ,brown-5 :box nil))))
+   `(powerline-inactive2 ((t (:background ,brown-4 :foreground ,brown-5 :box nil))))
+   
    `(vertical-border ((t (:foreground ,brown-4))))
    `(fringe ((t (:background ,brown-7 :foreground ,white-3))))
 
@@ -146,7 +153,7 @@
    `(rainbow-delimiters-depth-10-face ((t (:foreground ,orange-1))))
    `(rainbow-delimiters-depth-11-face ((t (:foreground ,blue-4))))
    `(rainbow-delimiters-depth-12-face ((t (:foreground ,red-5))))
-
+   
    ;; org-mode
    `(org-document-title ((t (:foreground ,blue-4 :background ,brown-1 :weight bold :height 1.5))))
    `(org-document-info ((t (:foreground ,blue-4 :background ,brown-1 :weight bold))))
